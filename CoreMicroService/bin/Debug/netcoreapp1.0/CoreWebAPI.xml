@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CoreWebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:CoreWebAPI.Startup.Configuredevelopment(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Logging.ILoggerFactory)">
+            <summary>
+            This is an override method that will come in play instead of Configure(...) method, provided ASPNETCORE_Environment is set to Development(Remember method name should be in same case as environment)
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+            <param name="loggerFactory"></param>
+        </member>
+    </members>
+</doc>
